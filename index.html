@@ -1,42 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripción" content="Web para aprender HTML5 y CSS3">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Instituto Superior</h1>
-    <h2>Carreras</h2>
-        <h3>Analista de Sistemas</h3>
-        <h3>Programación</h3>
-        <h3>Redes y Telecomunicaciones</h3>
-        <h3>Diseño Web</h3>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blog informativo sobre Inteligencia Artificial - Noticias, artículos y galería de imágenes"
+    />
+    <title>IA Blog - Inteligencia Artificial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <h1>🤖 IA Blog</h1>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li><a href="#articulos" class="nav-link">Artículos</a></li>
+            <li><a href="#galeria" class="nav-link">Galería</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis, vitae quaerat quae maxime iusto quos repellendus quam dicta repellat ipsa quasi ut obcaecati officiis, possimus inventore nemo pariatur eveniet?</p>
-    
-        <ol>
-            <li>Lunes</li>
-            <li>Martes</li>
-            <li>Miércoles</li>
-            <li>Jueves</li>
-            <li>Viernes</li>
-        </ol>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h2>Explorando el Futuro de la Inteligencia Artificial</h2>
+        <p>
+          Descubre las últimas tendencias, avances y aplicaciones de la IA que
+          están transformando nuestro mundo
+        </p>
+        <a href="#articulos" class="cta-button">Explorar Artículos</a>
+      </div>
+    </section>
 
-        <ul>
-            <li>Actividad 1</li>
-            <li>Actividad 2</li>
-            <li>Actividad 3</li>
-        </ul>
+    <!-- Artículos Section -->
+    <section id="articulos" class="articles">
+      <div class="container">
+        <h2 class="section-title">Últimos Artículos</h2>
+        <div class="articles-grid">
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="./img/luke-jones-tBvF46kmwBw-unsplash.jpg"
+                alt="Machine Learning"
+              />
+            </div>
+            <div class="article-content">
+              <h3>Machine Learning: Fundamentos y Aplicaciones</h3>
+              <p>
+                El machine learning es una rama de la inteligencia artificial
+                que permite a las máquinas aprender y mejorar automáticamente a
+                partir de la experiencia sin ser programadas explícitamente.
+              </p>
+              <a href="#" class="read-more">Leer más</a>
+            </div>
+          </article>
 
-        <a href="http://institutosuperiorvilladelrosario.edu.ar/" target="_blank">web de instituto</a>
-        <img src="./img/growtika-yGQmjh2uOTg-unsplash.jpg" alt="software">
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+                alt="Deep Learning"
+              />
+            </div>
+            <div class="article-content">
+              <h3>Deep Learning: Redes Neuronales Profundas</h3>
+              <p>
+                El deep learning utiliza redes neuronales artificiales con
+                múltiples capas para procesar datos y crear patrones que imitan
+                el funcionamiento del cerebro humano.
+              </p>
+              <a href="#" class="read-more">Leer más</a>
+            </div>
+          </article>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.989360113504!2d-63.534694838909935!3d-31.553950538785482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332a52b0c2e023%3A0xc79d16145f1b185c!2sInstituto%20Superior%20Villa%20del%20Rosario!5e0!3m2!1ses!2sar!4v1756845254645!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+                alt="IA Generativa"
+              />
+            </div>
+            <div class="article-content">
+              <h3>IA Generativa: Creando Contenido Inteligente</h3>
+              <p>
+                La inteligencia artificial generativa puede crear texto,
+                imágenes, música y otros contenidos de forma autónoma,
+                revolucionando industrias creativas.
+              </p>
+              <a href="#" class="read-more">Leer más</a>
+            </div>
+          </article>
 
-    <footer>
-        <p>Derechos reservados &copy; 2023</p>
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+                alt="Ética en IA"
+              />
+            </div>
+            <div class="article-content">
+              <h3>Ética en la Inteligencia Artificial</h3>
+              <p>
+                Exploramos los desafíos éticos que presenta el desarrollo de la
+                IA, incluyendo sesgos, privacidad y el impacto en el empleo
+                humano.
+              </p>
+              <a href="#" class="read-more">Leer más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="gallery">
+      <div class="container">
+        <h2 class="section-title">Galería de IA</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+              alt="IA y Datos"
+            />
+            <div class="gallery-overlay">
+              <h4>Análisis de Datos</h4>
+              <p>
+                La IA procesa grandes volúmenes de datos para extraer insights
+                valiosos
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/growtika-yGQmjh2uOTg-unsplash.jpg" alt="Robótica" />
+            <div class="gallery-overlay">
+              <h4>Robótica Inteligente</h4>
+              <p>Robots que aprenden y se adaptan a su entorno</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+              alt="Visión Computacional"
+            />
+            <div class="gallery-overlay">
+              <h4>Visión Computacional</h4>
+              <p>
+                Algoritmos que permiten a las máquinas "ver" e interpretar
+                imágenes
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+              alt="Procesamiento de Lenguaje"
+            />
+            <div class="gallery-overlay">
+              <h4>Procesamiento de Lenguaje Natural</h4>
+              <p>IA que comprende y genera lenguaje humano</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+              alt="Automatización"
+            />
+            <div class="gallery-overlay">
+              <h4>Automatización Inteligente</h4>
+              <p>Procesos automatizados que mejoran la eficiencia</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/growtika-yGQmjh2uOTg-unsplash.jpg"
+              alt="Futuro de la IA"
+            />
+            <div class="gallery-overlay">
+              <h4>Futuro de la IA</h4>
+              <p>Innovaciones que transformarán nuestro mundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estadísticas Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>85%</h3>
+            <p>de las empresas usan IA en sus procesos</p>
+          </div>
+          <div class="stat-item">
+            <h3>2.3M</h3>
+            <p>empleos creados por la IA en 2024</p>
+          </div>
+          <div class="stat-item">
+            <h3>$500B</h3>
+            <p>inversión global en IA este año</p>
+          </div>
+          <div class="stat-item">
+            <h3>95%</h3>
+            <p>de precisión en diagnósticos médicos con IA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>IA Blog</h3>
+            <p>
+              Tu fuente confiable de información sobre Inteligencia Artificial
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#articulos">Artículos</a></li>
+              <li><a href="#galeria">Galería</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>📧 info@iablog.com</p>
+            <p>📱 +54 9 11 1234-5678</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 IA Blog. Todos los derechos reservados.</p>
+        </div>
+      </div>
     </footer>
-</body>
+
+    <script>
+      // Smooth scrolling para navegación
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Efecto parallax en hero
+      window.addEventListener("scroll", () => {
+        const scrolled = window.pageYOffset;
+        const hero = document.querySelector(".hero");
+        if (hero) {
+          // Efecto parallax más suave para la imagen de fondo
+          const rate = scrolled * -0.5;
+          hero.style.backgroundPosition = `center ${rate}px`;
+        }
+      });
+    </script>
+  </body>
 </html>
